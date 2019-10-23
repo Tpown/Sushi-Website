@@ -1,0 +1,21 @@
+.location{
+    display:flex;
+    justify-content: center;
+}
+#location-title{
+    position: absolute;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 70px;
+    margin-top: 40px;
+}
+
+#googlemaps{
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1080px;
+    height: 600px;
+    border-width: 20px;
+}

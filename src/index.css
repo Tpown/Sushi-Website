@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+}

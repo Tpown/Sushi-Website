@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   /* background-color: #d8232a;
+    color: #fff003;*/
+    color: white;
+    z-index: 1;
+
+}
+#logo {
+    width: 8.0rem;
+    height: 8.0rem;
+}
+
+#restaurant-title-a{
+    font-family: 'Merienda One', cursive;
+    margin-right: 2.0em;
+    font-size: 35px;
+}
+
+#restaurant-title-b{
+    font-family: 'Merienda One', cursive;
+    margin-left: 2.0em;
+    font-size: 35px;
+}
+
+@media (max-width:620px){
+    #logo {
+        width: 7.0rem;
+        height: 7.0rem;
+    }
+
+    #restaurant-title-a{
+        font-family: 'Merienda One', cursive;
+        margin-right: 1.5em;
+        font-size: 30px;
+    }
+    
+    #restaurant-title-b{
+        font-family: 'Merienda One', cursive;
+        margin-left: 1.5em;
+        font-size: 30px;
+    }
+}
+@media (max-width:520px){
+    #logo {
+        width: 5.0em;
+        height: 5.0em;
+    }
+
+    #restaurant-title-a{
+        font-family: 'Merienda One', cursive;
+        margin-right: 1.2em;
+        font-size: 23px;
+    }
+    
+    #restaurant-title-b{
+        font-family: 'Merienda One', cursive;
+        margin-left: 1.2em;
+        font-size: 23px;
+    }
+}
+
+@media (max-width:320px){
+    #logo {
+        width: 4.5em;
+        height: 4.5em;
+    }
+
+    #restaurant-title-a{
+        font-family: 'Merienda One', cursive;
+        margin-right: 1.0em;
+        font-size: 20px;
+    }
+    
+    #restaurant-title-b{
+        font-family: 'Merienda One', cursive;
+        margin-left: 1.0em;
+        font-size: 20px;
+    }
+}
+
+#loading-spinner{
+    color:black;
+    background: black;
+}

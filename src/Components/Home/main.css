@@ -1,0 +1,37 @@
+.home {
+  height:100vh;
+}
+
+#background{
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100vh;
+    max-width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.dark-layer{
+    background-color: rgba(0, 0, 0, 0.63);
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
+#home-title{
+    font-size: 70px;
+    color: white;
+    font-family: 'Londrina Shadow', cursive;
+    padding: 10px;
+
+}
+
+.title-wrapper{
+    position: absolute;
+    top: 40%;
+    /*background: black;*/
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 5.0em;
+    padding-right: 15.0em; 
+}
